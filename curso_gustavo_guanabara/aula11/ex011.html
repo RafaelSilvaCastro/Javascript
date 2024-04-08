@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    Aonde Você nasceu? <input type="text" name="txtn" id="txtn">
+    <input type="button" value="verificar" onclick="veri()">
+    <div id="res">
+
+    </div>
+    <script>
+        function veri(){
+        var txtn = window.document.querySelector('input#txtn')
+        var res = window.document.querySelector('div#res')
+        res.innerHTML = `<p>Sua nacionalidade e: ${txtn}</p>`
+        if (txtn != 'Brasil'){
+            res.innerHTML += `Voce e estrangeiro`
+        }else{
+            res.innerHTML += `Voce e brasileiro`
+        }
+    }
+    </script>
+</body>
+</html>
