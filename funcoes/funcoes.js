@@ -7,13 +7,15 @@ function incrementa(){
 incrementa()
 console.log(valor)
 
+---------------------------------
+
 function mostraNome(nomeDaPessoa){
     console.log(nomeDaPessoa)
 }
 
 mostraNome('Rafael')
 mostraNome('Ola')
-*/
+
 
 function soma(numero1, numero2){
     const somaDosNumeros = numero1 + numero2
@@ -23,3 +25,11 @@ function soma(numero1, numero2){
 const meusNumeros = soma(4,6)
 
 console.log(meusNumeros)
+
+----------------------------
+*/
+
+const multi = (numero1,numero2) => numero1 * numero2
+
+const multiplicacao = multi(2,5)
+console.log(multiplicacao)
