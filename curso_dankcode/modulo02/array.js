@@ -1,6 +1,3 @@
-<html>
-<body>
-    <script>
         //Arrays
 
         var nomes = ['Guilherme','felipe','joao'];
@@ -11,6 +8,4 @@
 
         console.log(nomes[3]);
 
-    </script>
-</body>
-</html>
+    

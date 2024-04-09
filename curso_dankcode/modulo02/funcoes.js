@@ -1,6 +1,4 @@
-<html>
-<body>
-    <script>
+
         function testes(){
             //executado quando chamar a função
             console.log('chamando a funcao teste');
@@ -31,6 +29,3 @@
         console.log(nome);
 
         //-----------------
-    </script>
-</body>
-</html>

@@ -1,7 +1,3 @@
-<html>
-<body>
-    <script>
-
         //condiçoes
 
         var numero = 10;
@@ -24,6 +20,4 @@
         //---------------------------
 
         
-    </script>
-</body>
-</html>
+   
