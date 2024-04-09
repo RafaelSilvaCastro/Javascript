@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <script>
+
+            var anoNascimento = prompt('Por favor informe a data do seu nascimento:');
+
+            while(anoNascimento >= 2024){
+                alert('Por favor informe seu ano de nascimento corretamente.');
+                anoNascimento = prompt('Por favor informe a data do seu nascimento:');
+            }
+            
+            var anoAtual = prompt('E qual o seu ano atual?');
+            
+
+            var idadeFinal = anoAtual - anoNascimento;
+
+            alert(`Voce tem ${idadeFinal}`)
+
+        </script>
+    </body>
+</html>
