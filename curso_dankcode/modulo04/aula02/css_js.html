@@ -1,0 +1,46 @@
+<html>
+    <body>
+       <!--- <div id="box"></div>--->
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </body>
+    <script>
+
+        /* estilizando a div
+        var el = document.getElementById('box');
+        el.style.width = 100;
+        el.style.height = 100;
+        el.style.backgroundColor = 'red';
+        el.style.marginLeft = 200;
+        */
+
+        var elementos = document.getElementsByClassName('box');
+
+        /*
+        var el = elementos[0];
+        el.style.width = 100;
+        el.style.height = 100;
+        el.style.backgroundColor = 'blue';
+        el.style.marginLeft = 200;
+        */
+
+        for(var i = 0; i < elementos.length; i++){
+            var el = elementos[i];
+            
+            el.style.width = 100;
+            el.style.height = 100;
+            el.style.backgroundColor = 'blue';
+            el.style.marginLeft = 200;
+            el.style.marinTop = 10;
+            el.syle.borderColor = 'black';
+            el.style.borderSryle = 'dotted';
+        }
+
+    </script>
+</html>
