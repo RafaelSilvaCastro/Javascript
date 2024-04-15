@@ -1,3 +1,5 @@
+//usando JS puro
+
 var items = [];
 
 document.querySelector('input[type=submit]').addEventListener('click',()=>{

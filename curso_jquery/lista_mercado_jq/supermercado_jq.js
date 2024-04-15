@@ -1,3 +1,5 @@
+//usando jQuery
+
 $(document).ready(()=>{
     var items = [];
 
