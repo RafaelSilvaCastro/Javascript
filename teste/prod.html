@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+</head>
+<body>
+    <h1>Produtos</h1>
+    <div id="products">
+        <div class="product">
+            <h3>Produto 1</h3>
+            <button onclick="addToCart('Produto 1')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="product">
+            <h3>Produto 2</h3>
+            <button onclick="addToCart('Produto 2')">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+    
+    <script>
+        function addToCart(productName) {
+            var cart = JSON.parse(localStorage.getItem('cart')) || [];
+            cart.push(productName);
+            localStorage.setItem('cart', JSON.stringify(cart));
+            alert('Produto adicionado ao carrinho!');
+        }
+    </script>
+</body>
+</html>
